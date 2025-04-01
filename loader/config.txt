@@ -1,0 +1,5 @@
+log=e9
+smp=no
+vm=fake
+fakexen=../fakexen/fakexen.elf vmlinux
+boot=skip_sanity linux32 ../linux/linux-6.12.8/arch/x86/boot/bzImage
